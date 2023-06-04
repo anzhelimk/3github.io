@@ -334,7 +334,7 @@ button{
     align-items: flex-start;
 }
 .preim img{
-    height: 8vh;
+    height: 4rem;
     padding-bottom: 25px;
 }
 .preim h3{
@@ -355,5 +355,153 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 80px;
+}
+.photo_text_block h1{
+    font-family: 'Neu';
+    font-size: 4.3rem;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.photo_text_block p{
+    font-size: 1rem;
+}
+.photo_text_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-about{
+    padding-left: 60px;
+}
+.photo_text_block{
+    padding-top: 140px;
+}
+.section-form-subscribe{
+    margin-top: 100px;
+    background-color: black;
+    padding-bottom: 100px;
+}
+.sub-head{
+    padding-top: 130px;
+}
+.sub-head h1{
+    font-family: 'Neu';
+    font-size: 4.3rem;
+    color: white;
+    font-weight: 400;
+}
+.sub-head .two-head{
+    padding-left: 340px;
+}
+.forms-photo-sub{
+    padding-top: 70px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.forms-photo-sub p{
+    font-family: 'Man Reg';
+    font-size: 1.45rem;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+form .name-s, .phone-s, .mail-s{
+    font-family: 'Man Reg';
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+}
+
+.forma-dannie input{
+    width: 100%;
+    border: 1px solid #3d3d3d;
+    background: none;
+    padding: 15px;
+    margin-top: 11px;
+}
+
+.rassilka-s p{
+    font-family: 'Man Reg';
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 17px;
+}
+.rassilka-s label{
+    font-family: 'Man Reg';
+    color: white;
+    font-size: 1.1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sogl label{
+    font-family: 'Man Reg';
+    color: white;
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+.forms-sub .but-f{
+    width: 100%;
+    background-color: none;
+    padding: 15px;
+    height: 84px;
+
+    font-family: 'Neu';
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 400;
+    border: 1px solid white;
+}
+.forms-sub .but-f:hover{
+    background-color: white;
+    border: none;
+    color: black;
+    transition: all ease 0.2s;
+}
+.sogl{
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+.forms-sub{
+    padding-left: 130px;
+}
+.section-footer{
+    background-color: black;
+    width: 100%;
+}
+.line-5{
+    background-color: white;
+    width: 100%;
+    height: 1px;
+}
+.section-footer p{
+    color: white;
+    font-family: 'Man Med';
+    font-size: 1rem;
+    font-weight: 400;
+}
+.foot a{
+    color: white;
+    font-family: 'Man Med';
+    font-size: 1rem;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+}
+.social-f{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-f a{
+    border-bottom: none;
+}
+.foot{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
